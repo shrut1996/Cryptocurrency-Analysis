@@ -24,6 +24,7 @@ def plot_regression_line(regression):
     plt.ylabel('Normalized Values')
     ax.legend(loc='best')
     plt.grid(True)
+    plt.savefig('BTCForecast.png')
     plt.show()
 
 
